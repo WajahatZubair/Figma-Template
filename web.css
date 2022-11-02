@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  background: url("pics/images (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0px;
+  animation: mymove 5s infinite;
+  animation-iteration-count: 1;
+  position: relative;
+}
+@keyframes mymove {
+  40% {bottom: 200px;}
+}
+.container {
+  display: flex;
+  height: 100%;
+  margin: 10px;
+}
+
+.left {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  flex: 1;
+  height: 100%;
+  margin: 10px 10px;
+}
+
+.right {
+  flex: 4;
+  height: 100%;
+  margin: 10px 10px;
+}
+
+.left li {
+  list-style: none;
+}
+
+.left li a {
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  color: black;
+  border: 5px solid yellow;
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: small;
+  padding: 0px 40px;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.left img {
+  border-radius: 100px;
+}
+
+.logo {
+  display: flex;
+}
+
+.id {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.fa-brands {
+  display: flex;
+  justify-content: left;
+}
+
+.ids {
+  display: flex;
+}
+
+.ifs {
+  display: flex;
+}
+
+.ijs {
+  display: flex;
+}
+
+.iys {
+  display: flex;
+}
+
+.ok {
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+  padding: 30px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.soft {
+  display: flex;
+}
+
+.soft li {
+  list-style: none;
+}
+
+.toot {
+  box-shadow: 10px 10px 6px silver;
+}
+
+.dan {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.fifas {
+  margin-left: 5px;
+  padding: 15px;
+  background-color: rgb(254, 254, 156);
+  border-color: white;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.fifas:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 88);
+}
+
+.were {
+  display: flex;
+}
+
+.moon {
+  background-color: rgb(244, 244, 244);
+  padding: 5px;
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 10px;
+}
+
+.heading {
+  width: 100%;
+}
+
+.heading ul li {
+  padding-right: 10px;
+}
+
+.game {
+  width: 100%;
+  display: flex;
+  padding-top: 5px;
+}
+
+.game ul {
+  margin-right: 50px;
+}
+
+.game ul li {
+  list-style: none;
+}
+
+.warn {
+  display: flex;
+  flex: 1;
+}
+
+.post {
+  display: flex;
+  flex: 1;
+}
+
+.films {
+  display: flex;
+  flex: 1;
+}
+
+.ss {
+  display: flex;
+  flex: 1;
+}
+
+.icons {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.hook{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.hooks{
+  width: 50%;
+}
+
+.hooks span {
+  margin-right: 30px;   
+}
+
+.hook1 {
+  width: 50%;
+}
+.right img{
+  width: 100%;
+  height: 70%;
+}
+.mean{
+  display: flex;
+  margin-top: 30px;
+}
+.mean span{
+  display: flex;    
+  flex-direction: column;
+  margin-left: 10px;
+}
+.mean .img {
+  overflow: hidden;
+  width: 140px;
+  margin-right: 50px;
+  border: 2px solid  rgb(223, 214, 214);
+  border-radius: 20px;
+  transition: 0.6s;
+}
+.mean .img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.mean .img image {
+  width: 100% !important;
+  height: 90% !important;
+}
+.lack{
+  display: flex;
+  margin-top: 30px;
+}
+.lack span{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.lack .img {
+  overflow: hidden;
+  width: 140px;
+  height: 160px;
+  margin-right: 50px;
+  border: 2px solid  rgb(223, 214, 214);
+  border-radius: 20px;
+  transition: 0.6s;    
+}
+.lack .img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.lack .img image {
+  width: 100% !important;
+  height: 80% !important;
+}
